@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarikul Islam — Ph.D. Scholar · IIT Kharagpur</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ═══════════════  NAV  ═══════════════ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#hero">SI</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#academics">Academics</a></li>
+      <li><a href="#honours">Honours</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ═══════════════  HERO  ═══════════════ -->
+<section id="hero">
+  <!-- Background: night lake photo -->
+  <div class="hero-bg" style="background-image:url('assets/bg_1.png')"></div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <!-- Profile photo: presentation shot (clean, professional) -->
+    <div class="hero-photo-wrap">
+      <img src="assets/profile1.jpg" alt="Sarikul Islam" class="hero-photo"
+           onerror="this.style.display='none'; document.getElementById('heroInitials').style.display='flex'" />
+      <div class="hero-initials" id="heroInitials">SI</div>
+    </div>
+
+    <div class="hero-text">
+      <p class="hero-eyebrow">Ph.D. Scholar · Dept. of Mathematics · IIT Kharagpur, India</p>
+      <h1 class="hero-name">Sarikul Islam</h1>
+      <p class="hero-tagline">
+        Reliability Theory &nbsp;·&nbsp; Applied Probability &nbsp;·&nbsp; Non-parametric Inference
+      </p>
+
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">1</span><span class="stat-label">Publication</span></div>
+        <div class="stat"><span class="stat-num">4</span><span class="stat-label">Conf. Talks</span></div>
+        <div class="stat"><span class="stat-num">AIR 93</span><span class="stat-label">CSIR NET</span></div>
+        <div class="stat"><span class="stat-num">AIR 94</span><span class="stat-label">GATE Math</span></div>
+      </div>
+
+      <div class="hero-tags">
+        <span>Reliability Engineering</span>
+        <span>Coherent Systems</span>
+        <span>Copula Theory</span>
+        <span>Stochastic Ordering</span>
+        <span>Goodness-of-Fit</span>
+        <span>Weighted Distributions</span>
+      </div>
+
+      <div class="hero-cta">
+        <a href="#publications" class="btn-primary">Publications</a>
+        <a href="#about" class="btn-secondary">About Me</a>
+        <a href="https://drive.google.com/file/d/1Qo7Dctw_92PYrIJo_qTmXLccqMmJwfqX/view?usp=sharing"
+           class="btn-secondary" target="_blank">Download CV</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">&#8595;</div>
+</section>
+
+<!-- ═══════════════  ABOUT  ═══════════════ -->
+<section id="about" class="section section-light">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-grid">
+
+      <!-- Left: bio + details -->
+      <div class="about-bio">
+        <p>
+          I am a <strong>Senior Research Fellow</strong> in the Department of Mathematics at
+          IIT Kharagpur, specialising in <strong>Reliability Theory</strong>,
+          <strong>Applied Probability</strong>, and <strong>Non-parametric Inference</strong>.
+        </p>
+        <p>
+          My research focuses on developing statistical models and non-parametric estimators
+          for reliability of complex multicomponent coherent systems, stochastic ordering of
+          system lifetimes under dependence structures modelled via Archimedean copulas,
+          weighted distributions, and goodness-of-fit testing.
+        </p>
+        <p>
+          I am supervised by <strong>Dr. Nitin Gupta</strong>, Department of Mathematics,
+          IIT Kharagpur.
+        </p>
+
+        <div class="about-details">
+          <div class="detail-row"><span class="detail-label">Date of Birth</span><span>05 May 1997</span></div>
+          <div class="detail-row"><span class="detail-label">Hometown</span><span>Golapganj, Sardaha, Malda, West Bengal — 732201</span></div>
+          <div class="detail-row"><span class="detail-label">Current Address</span><span>IIT Kharagpur, WB 721302, India</span></div>
+          <div class="detail-row"><span class="detail-label">Email (personal)</span>
+            <span><a href="mailto:sarikul.official.mail@gmail.com">sarikul.official.mail@gmail.com</a></span></div>
+          <div class="detail-row"><span class="detail-label">Email (institute)</span>
+            <span><a href="mailto:sarikul_phd_math@kgpian.iitkgp.ac.in">sarikul_phd_math@kgpian.iitkgp.ac.in</a></span></div>
+          <div class="detail-row"><span class="detail-label">Phone</span>
+            <span><a href="tel:+918768689986">+91 8768689986</a></span></div>
+          <div class="detail-row"><span class="detail-label">Nationality</span><span>Indian</span></div>
+          <div class="detail-row"><span class="detail-label">Supervisor</span><span>Dr. Nitin Gupta, IIT Kharagpur</span></div>
+        </div>
+
+        <div class="about-socials">
+          <a href="https://www.linkedin.com/in/sarikul-islam-7029b9308/" target="_blank" class="social-pill">LinkedIn</a>
+          <a href="https://www.researchgate.net/profile/Sarikul-Islam" target="_blank" class="social-pill">ResearchGate</a>
+          <a href="https://orcid.org/0009-0002-5877-145X" target="_blank" class="social-pill">ORCID</a>
+        </div>
+      </div>
+
+      <!-- Right: photo collage + interests -->
+      <div class="about-right">
+        <!-- Two about images side by side -->
+        <div class="about-photos">
+          <!-- IIT KGP sign photo (landscape) -->
+          <img src="assets/bg_1.jpg"   alt="At IIT Kharagpur" class="about-img about-img-wide" />
+          <!-- With supervisor group photo -->
+          <img src="assets/about_2.jpg" alt="Research group" class="about-img" />
+          <!-- Seminar audience photo -->
+          <img src="assets/about_1.JPG" alt="Research seminar" class="about-img" />
+        </div>
+
+        <div class="interest-box">
+          <h3>Research Interests</h3>
+          <ul class="interest-list">
+            <li>Reliability Theory &amp; Coherent Systems</li>
+            <li>Applied Probability &amp; Stochastic Ordering</li>
+            <li>Copula-based Dependence Modelling</li>
+            <li>Non-parametric Inference</li>
+            <li>Weighted Distributions</li>
+            <li>Goodness-of-Fit Testing</li>
+            <li>Characterisation of Probability Distributions</li>
+            <li>Information Measures in Statistics</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════  ACADEMICS  ═══════════════ -->
+<section id="academics" class="section section-dark">
+  <div class="container">
+    <h2 class="section-title light">Academics</h2>
+    <div class="timeline">
+
+      <div class="tl-item">
+        <div class="tl-marker"></div>
+        <div class="tl-body">
+          <span class="tl-date">2023 – Present</span>
+          <h3 class="tl-title">Ph.D. in Applied Mathematics</h3>
+          <p class="tl-inst">IIT Kharagpur, India</p>
+          <p class="tl-desc">Supervisor: Dr. Nitin Gupta, Dept. of Mathematics. Supported by SRF fellowship from IIT Kharagpur.</p>
+          <span class="tl-badge">Senior Research Fellow</span>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-marker"></div>
+        <div class="tl-body">
+          <span class="tl-date">Jul 2021 – Jun 2023</span>
+          <h3 class="tl-title">INSPIRE Fellowship (Ph.D. Research Grant)</h3>
+          <p class="tl-inst">DST, New Delhi, India</p>
+          <p class="tl-desc">Department of Science &amp; Technology fellowship for doctoral research in mathematical sciences.</p>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-marker"></div>
+        <div class="tl-body">
+          <span class="tl-date">Jul 2018 – Oct 2020</span>
+          <h3 class="tl-title">M.Sc. in Mathematics</h3>
+          <p class="tl-inst">Aligarh Muslim University, Aligarh 202002, India</p>
+          <p class="tl-desc">Faculty Advisor: Dr. Javid Ali, Dept. of Mathematics.</p>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-marker"></div>
+        <div class="tl-body">
+          <span class="tl-date">Jul 2015 – Jun 2018</span>
+          <h3 class="tl-title">B.Sc. in Mathematics</h3>
+          <p class="tl-inst">Aligarh Muslim University, Aligarh 202002, India</p>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-marker"></div>
+        <div class="tl-body">
+          <span class="tl-date">2013 – 2015</span>
+          <h3 class="tl-title">Higher Secondary (Class XII)</h3>
+          <p class="tl-inst">West Bengal Council of Higher Secondary Examination (WBCHSE)</p>
+          <p class="tl-desc">Physics · Chemistry · Mathematics · Biology · English · Bengali</p>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-marker"></div>
+        <div class="tl-body">
+          <span class="tl-date">Jul 2015 – Nov 2020</span>
+          <h3 class="tl-title">INSPIRE Scholarship</h3>
+          <p class="tl-inst">DST, New Delhi, India</p>
+          <p class="tl-desc">Grant: ₹4,00,000 — awarded by Department of Science &amp; Technology for meritorious undergraduate and postgraduate study.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════  HONOURS  ═══════════════ -->
+<section id="honours" class="section section-light">
+  <div class="container">
+    <h2 class="section-title">Honours &amp; Recognition</h2>
+    <div class="awards-grid">
+
+      <div class="award-card">
+        <div class="award-icon">🏆</div>
+        <div class="award-year">Jun 2021</div>
+        <h3>UGC-CSIR NET</h3>
+        <p class="award-rank">AIR 93</p>
+        <p>Joint UGC-CSIR National Eligibility Test — Mathematical Sciences. Qualified for JRF &amp; Lectureship.</p>
+      </div>
+
+      <div class="award-card">
+        <div class="award-icon">🎖️</div>
+        <div class="award-year">Jun 2021</div>
+        <h3>MANF-JRF</h3>
+        <p class="award-rank">Junior Research Fellowship</p>
+        <p>Maulana Azad National Fellowship — JRF in Mathematical Sciences awarded by UGC.</p>
+      </div>
+
+      <div class="award-card">
+        <div class="award-icon">📊</div>
+        <div class="award-year">2021</div>
+        <h3>GATE Mathematics</h3>
+        <p class="award-rank">AIR 94</p>
+        <p>Graduate Aptitude Test in Engineering — Mathematics, with All India Rank 94.</p>
+      </div>
+
+      <div class="award-card">
+        <div class="award-icon">🔬</div>
+        <div class="award-year">2015 – 2020</div>
+        <h3>INSPIRE Scholarship</h3>
+        <p class="award-rank">DST, Govt. of India</p>
+        <p>Scholarship for meritorious students pursuing natural &amp; basic sciences. Grant: ₹4,00,000.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════  CONFERENCES  ═══════════════ -->
+<section id="conferences" class="section section-mid">
+  <div class="container">
+    <h2 class="section-title">Conferences &amp; Workshops</h2>
+    <div class="conf-list">
+
+      <!-- EMS 2026 — with presentation + venue photos -->
+      <div class="conf-item">
+        <div class="conf-badge intl">International</div>
+        <div class="conf-body">
+          <span class="conf-date">24–28 August 2026</span>
+          <h3>European Meeting of Statisticians 2026</h3>
+          <p class="conf-venue">Università della Svizzera italiana, Lugano, Switzerland</p>
+          <p class="conf-paper">
+            <em>"On Weighted Distribution with Applications to Goodness-of-Fit Testing"</em>
+          </p>
+          <span class="conf-type">Invited / Contributed Presentation Talk</span>
+          <!-- EMS photos -->
+          <div class="conf-photos">
+            <img src="assets/BG4.jpg"  alt="Presenting at EMS 2026, Lugano" />
+            <img src="assets/bg_2.jpg" alt="At EMS 2026 venue, Lugano" />
+          </div>
+        </div>
+      </div>
+
+      <!-- RAISE DS 2025 — with certificate photo -->
+      <div class="conf-item">
+        <div class="conf-badge natl">National</div>
+        <div class="conf-body">
+          <span class="conf-date">22–24 December 2025</span>
+          <h3>IC-RAISE DS 2025</h3>
+          <p class="conf-venue">VIT-AP University, Vijayawada, Andhra Pradesh, India</p>
+          <p class="conf-paper">
+            <em>"On the Weighted Tail Random Variable: A New Probability Framework Along with Reliability Properties and Applications"</em>
+          </p>
+          <span class="conf-type">Presentation Talk</span>
+          <div class="conf-photos">
+            <img src="assets/BG3.jpg" alt="Certificate at RAISE DS 2025" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Research Scholar Day -->
+      <div class="conf-item">
+        <div class="conf-badge natl">National</div>
+        <div class="conf-body">
+          <span class="conf-date">1 November 2025</span>
+          <h3>Research Scholar Day Seminar</h3>
+          <p class="conf-venue">Dept. of Mathematics, IIT Kharagpur, India</p>
+          <p class="conf-paper">
+            <em>"On Coherent System Consisting of Exchangeable Components and a Single Cold Standby Unit"</em>
+          </p>
+          <span class="conf-type">Presentation Talk</span>
+          <!-- About1 = presenting at IIT KGP; About1(audience) = seminar audience -->
+          <div class="conf-photos">
+            <img src="assets/About1.jpg"   alt="Presenting at Research Scholar Day, IIT KGP" />
+            <img src="assets/about_1.JPG"  alt="Seminar audience, Research Scholar Day" />
+          </div>
+        </div>
+      </div>
+
+      <!-- ICSL 2025 -->
+      <div class="conf-item">
+        <div class="conf-badge natl">National</div>
+        <div class="conf-body">
+          <span class="conf-date">6–8 March 2025</span>
+          <h3>ICSL 2025</h3>
+          <p class="conf-venue">IIT Ropar, India</p>
+          <p class="conf-paper">
+            <em>"Stochastic Ordering of Series and Parallel Systems Lifetime in Archimedean Copula under Random Shock"</em>
+          </p>
+          <span class="conf-type">Presentation Talk</span>
+        </div>
+      </div>
+
+      <!-- AIS Workshop -->
+      <div class="conf-item">
+        <div class="conf-badge workshop">Workshop</div>
+        <div class="conf-body">
+          <span class="conf-date">July 2023</span>
+          <h3>AIS — Stochastic Processes</h3>
+          <p class="conf-venue">NISER Bhubaneshwar, Odisha 752050, India</p>
+          <p class="conf-paper">Sponsored by National Centre for Mathematics (NCM), India.</p>
+          <span class="conf-type">Workshop Attended</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════  GALLERY  ═══════════════ -->
+<section id="gallery" class="section section-dark">
+  <div class="container">
+    <h2 class="section-title light">Gallery</h2>
+    <p class="gallery-sub">Moments from research, conferences, and academic life.</p>
+
+    <div class="gallery-grid">
+
+      <div class="gallery-item gallery-tall">
+        <img src="assets/profile2.jpg" alt="Sarikul Islam presenting" />
+        <div class="gallery-caption">Research Scholar Day Seminar, IIT Kharagpur</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/bg_2.jpg" alt="At EMS 2026 Lugano Switzerland" />
+        <div class="gallery-caption">European Meeting of Statisticians 2026, Lugano</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/BG4.jpg" alt="Presenting at EMS 2026" />
+        <div class="gallery-caption">Presenting at EMS 2026, Switzerland</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/BG3.jpg" alt="Certificate at RAISE DS 2025" />
+        <div class="gallery-caption">IC-RAISE DS 2025, VIT-AP University</div>
+      </div>
+
+      <div class="gallery-item gallery-wide">
+        <img src="assets/about_2.jpg" alt="With supervisor and research group" />
+        <div class="gallery-caption">With Dr. Nitin Gupta &amp; Research Group, IIT KGP</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/bg_1.jpg" alt="IIT Kharagpur main gate sign" />
+        <div class="gallery-caption">Indian Institute of Technology Kharagpur</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="assets/about_1.JPG" alt="Research seminar audience, IIT KGP" />
+        <div class="gallery-caption">Research Seminar, IIT Kharagpur</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════  SKILLS  ═══════════════ -->
+<section id="skills" class="section section-light">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+
+      <div class="skill-block">
+        <h3>Mathematical &amp; Statistical</h3>
+        <ul>
+          <li>Reliability Theory</li>
+          <li>Applied Probability</li>
+          <li>Stochastic Processes</li>
+          <li>Non-parametric Inference</li>
+          <li>Statistical Testing &amp; Data Analysis</li>
+          <li>Information Measures</li>
+        </ul>
+      </div>
+
+      <div class="skill-block">
+        <h3>Programming &amp; Computing</h3>
+        <ul>
+          <li>R (Statistical Computing)</li>
+          <li>MATLAB / Mathematica</li>
+          <li>C Programming</li>
+          <li>Basic Python</li>
+          <li>LaTeX (Academic Writing)</li>
+        </ul>
+      </div>
+
+      <div class="skill-block">
+        <h3>Research Skills</h3>
+        <ul>
+          <li>Academic Writing &amp; Publishing</li>
+          <li>Mathematical Modelling</li>
+          <li>Literature Survey</li>
+          <li>Statistical Simulation</li>
+          <li>Presentation &amp; Communication</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════  PUBLICATIONS  ═══════════════ -->
+<section id="publications" class="section section-dark">
+  <div class="container">
+    <h2 class="section-title light">Publications</h2>
+
+    <div class="pub-tabs">
+      <button class="pub-tab active" onclick="showPubs('published', this)">Published</button>
+      <button class="pub-tab" onclick="showPubs('preprint', this)">Under Review / Preprints</button>
+    </div>
+
+    <div id="pub-published" class="pub-group">
+      <div class="pub-card">
+        <div class="pub-num">01</div>
+        <div class="pub-info">
+          <p class="pub-journal">Mathematica Slovaca · De Gruyter Brill · 2026</p>
+          <h3 class="pub-title">On Weighted Distribution with Applications to Goodness-of-Fit Testing</h3>
+          <p class="pub-authors"><strong>Islam, S.</strong> &amp; Gupta, N.</p>
+          <a href="https://doi.org/10.1515/ms-2026-0031" target="_blank" class="pub-doi">DOI: 10.1515/ms-2026-0031</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="pub-preprint" class="pub-group hidden">
+      <p class="pub-placeholder">Papers currently under review will appear here. Please add details as needed.</p>
+    </div>
+
+    <div class="pub-links">
+      <a href="https://www.researchgate.net/profile/Sarikul-Islam/research" target="_blank" class="btn-primary">ResearchGate</a>
+      <a href="https://orcid.org/0009-0002-5877-145X" target="_blank" class="btn-secondary">ORCID</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════  CONTACT  ═══════════════ -->
+<section id="contact" class="section section-light">
+  <div class="container">
+    <h2 class="section-title">Get in Touch</h2>
+    <p class="contact-sub">Open to research collaborations, academic discussions, and opportunities in probability &amp; statistics.</p>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-item">
+          <span class="ci-icon">📍</span>
+          <div>
+            <strong>Address</strong>
+            <p>IIT Kharagpur, West Bengal 721302, India</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="ci-icon">✉️</span>
+          <div>
+            <strong>Email</strong>
+            <p><a href="mailto:sarikul.official.mail@gmail.com">sarikul.official.mail@gmail.com</a></p>
+            <p><a href="mailto:sarikul_phd_math@kgpian.iitkgp.ac.in">sarikul_phd_math@kgpian.iitkgp.ac.in</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="ci-icon">📞</span>
+          <div>
+            <strong>Phone</strong>
+            <p><a href="tel:+918768689986">+91 8768689986</a></p>
+          </div>
+        </div>
+        <div class="contact-socials">
+          <a href="https://www.linkedin.com/in/sarikul-islam-7029b9308/" target="_blank" class="soc-btn">LinkedIn</a>
+          <a href="https://www.researchgate.net/profile/Sarikul-Islam" target="_blank" class="soc-btn">ResearchGate</a>
+          <a href="https://orcid.org/0009-0002-5877-145X" target="_blank" class="soc-btn">ORCID</a>
+        </div>
+        <div class="affil-links">
+          <strong>Affiliated Institutions</strong>
+          <p>
+            <a href="http://www.iitkgp.ac.in/" target="_blank">IIT Kharagpur</a> ·
+            <a href="https://www.amu.ac.in/" target="_blank">AMU, Aligarh</a> ·
+            <a href="https://alameenmission.org/alameencms/" target="_blank">Al Ameen Mission, WB</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="contact-quick">
+        <h3>Quick Profile</h3>
+        <div class="qs-row"><span>Best Rank</span><strong>AIR 93 (UGC-CSIR NET)</strong></div>
+        <div class="qs-row"><span>GATE Rank</span><strong>AIR 94 (Mathematics)</strong></div>
+        <div class="qs-row"><span>Publications</span><strong>1 published · more under review</strong></div>
+        <div class="qs-row"><span>Conferences</span><strong>4 talks · 1 international (EMS 2026)</strong></div>
+        <div class="qs-row"><span>Supervisor</span><strong>Dr. Nitin Gupta, IIT KGP</strong></div>
+        <div class="qs-row"><span>Fellowship</span><strong>INSPIRE + MANF-JRF (DST)</strong></div>
+        <div class="qs-row"><span>Open To</span><strong>Collaborations · Postdoc · Academia</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════  FOOTER  ═══════════════ -->
+<footer>
+  <p>© 2026 Sarikul Islam · IIT Kharagpur · Ph.D. Scholar, Dept. of Mathematics</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
